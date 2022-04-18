@@ -1,0 +1,80 @@
+body {
+    color: #DAD6D6;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;  
+    background-color: #78938A;
+    background-image: url(../images/image.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div{
+    min-width: 20%;
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+#heading{
+    margin-top: 125px;
+}
+
+#timer{
+    font-size: 2.5em;
+}
+
+#start {
+  margin: 10px auto;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  text-align: center;
+  color: #DAD6D6;
+  background:#254441;
+  border:solid 2px #254441;
+  border-radius:25% 25% 25% 25%;
+  
+  
+}
+
+#stop {
+  margin: 10px 5px auto;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  text-align: center;
+  color: #DAD6D6;
+  background: #EC4E20;
+  border:solid 2px #EC4E20;
+  border-radius:25% 25% 25% 25%;
+  
+}
+
+#reset {
+  margin: 10px auto;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  text-align: center;
+  color: #DAD6D6;
+  background: #444054;
+  border:solid 2px #444054;
+  border-radius:25% 25% 25% 25%;
+  
+}
+
+h2
+{
+  font-size: 46px;
+  letter-spacing: 2px;
+  margin: 200px 0 0 ;
+}
+
+button {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 700ms;
+}
+
+button:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 1, 0.9);
+}
